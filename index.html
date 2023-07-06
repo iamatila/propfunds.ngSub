@@ -16,95 +16,144 @@
     <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 
-    <link rel="stylesheet" type="text/css" href="default.css" />
+    <link rel="stylesheet" type="text/css" href="default2.css" />
 
     <link id="theme-style" rel="stylesheet" type="text/css" href="" />
 
     <title>Propfunds.ng</title>
   </head>
   <body>
+    <section>
+        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation"
+          style="height: 50px; background-color: rgb(255, 255, 255, 0.4)">
+          <div class="navbar-brand" style="margin: 5px">
+            <img src="images/logo1.png" class="" />
+          </div>
+        </nav>
+    </section>
     <section class="s1">
-      <!-- <div class="center">
-        
-      </div> -->
       <div class="main-container">
-        <div class="greeting-wrapper">
-          <h1>
-            <!-- Hi, I'm Tobi Atilola -->
-            <img src="images/logo1.png" class="logo" />
-          </h1>
-        </div>
-        <div class="greeting-wrapper">
-                <div class="columns">
-                  <div class="column notification bG">
-                    <div style="margin-top: 5%; margin-bottom: 5%">
-                      <div class="backG1" style="padding-left: 40px">
-                        <h1 class="title has-text-left is-size-1" style="color: #001951; margin-bottom: 40px">
-                          Join Our Waitlist and be a <br /> Proptech Brailbalzer with us
-                        </h1>
-                        <p class="has-text-left" style="margin-bottom: 20px">
-                          Join our waitlist and be a proptech pioneer. Get early access to,
-                          <br />
-                          game changing real estate investments.
-                        </p>
-                        <div class="buttons">
-                          <a href="#subscribe" class="investButton" style="text-decoration: none; color: white">Join
-                            now</a>
-                          <button class="button" @click="toggle()" style="
-                                        height: 43px;
-                                        border-radius: 5px;
-                                        font-size: 16px;
-                                        cursor: pointer;
-                                        margin-top: 9px;
-                                        border: 1px solid #001951;
-                                      ">
-                            <img src="images/play-icon.png" alt="" style="margin-right: 10px; height: 15px; width: 15px" />Watch a
-                            brief video
-                          </button>
-                        </div>
-                      </div>
-                      <div class="box"></div>
-                
-                      <div class="trailer">
-                        <video id="video1" src="images/video/video.mp4" controls="true"></video>
-                        <div class="close">
-                          <i style="color: #fff" class="bx bx-x-circle" @click="toggle()">
-                          </i>
-                        </div>
-                      </div>
-                    </div>
+        <div class="is-hidden-touch number1">
+          <div class="columns">
+            <div class="column notification1 bG1">
+              <div style="margin-top: 5%; margin-bottom: 5%">
+                <div class="backG1" style="padding-left: 40px">
+                  <h1 class="title has-text-left is-size-1" style="color: #001951; margin-bottom: 40px">
+                    Join Our Waitlist and be a <br /> Proptech Brailbalzer with us
+                  </h1>
+                  <p class="has-text-left" style="margin-bottom: 20px">
+                    Join our waitlist and be a proptech pioneer. Get early access to,
+                    <br />
+                    game changing real estate investments.
+                  </p>
+                  <div class="buttons">
+                    <a href="#subscribe" class="investButton1" style="text-decoration: none; color: white">Join
+                      now</a>
+                    <button class="button" @click="toggle()" style="
+                                  height: 43px;
+                                  border-radius: 5px;
+                                  font-size: 16px;
+                                  cursor: pointer;
+                                  margin-top: 9px;
+                                  border: 1px solid #001951;
+                                ">
+                      <img src="images/play-icon.png" alt="" style="margin-right: 10px; height: 15px; width: 15px" />Watch a
+                      brief video
+                    </button>
                   </div>
                 </div>
+                <div class="box" style="margin-top: 55px;"></div>
+          
+                <div class="trailer">
+                  <video id="video1" src="images/video/video.mp4" controls="true"></video>
+                  <div class="close">
+                    <i style="color: #fff" class="bx bx-x-circle" @click="toggle()">
+                    </i>
+                  </div>
                 </div>
-        </div>
-
-        <div class="greeting-wrapper">
-          <div>
-            <div class="element-featured">
-              <h3>Featured on</h3>
-            </div>
-            <div class="container">
-              <img src="images/bella.png" alt="" />
-              <img src="images/irokotv.png" alt="" />
-              <img src="images/guardian.png" alt="" />
-              <img style="max-height: 80px" src="images/businessday.png" alt="" />
-              <img src="images/techcaba.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="greeting-wrapper">
-          <div class="cover">
-            <div class="row">
-              <div class="col-2">
-                <div class="group">
-                  <div class="row-1">
+        <div class="is-hidden-desktop greeting-wrapper">
+          <div class="colu1" style="margin-top: 100px">
+            <div class="columns">
+              <div class="column notification bG1 ">
+                <div style="padding: 75px 0">
+                  <p class="title is-size-4" style="color: #001951; text-align: center;">
+                    Join Our Waitlist and be a <br /> Proptech Brailbalzer with us
+                  </p>
+                  <p style="text-align: center;">
+                    Join our waitlist and be a proptech pioneer. Get early access to,
+                    <br />
+                    game changing real estate investments.
+                  </p>
+                  <a @click="toggleMobile()" style="text-decoration: none; text-align: center;">
+                    <div style="margin-top: 10px; margin-bottom: 10px">
+                      <span class="icon">
+                        <i class="bx bx-play" style="color: red"></i>
+                      </span>
+                      <span style="color: black">Watch a brief video</span>
+                    </div>
+                  </a>
+                  <div class="trailerMobile">
+                    <video id="video3" src="images/video/video.mp4" controls="true"></video>
+                    <div class="closeMobile">
+                      <i style="color: #fff" class="bx bx-x-circle" @click="toggleMobile()">
+                      </i>
+                    </div>
+                  </div>
+                  <br />
+                  <div style="
+                                display: block;
+                                margin: auto;
+                                padding-left: 40% ;
+                                ">
+                    <a href="#subscribe2" class="button" style="
+                                color: white;
+                                background-color: #001951;
+                                border: none;
+                                margin-top: 10px;
+                                margin-bottom: 10px;
+                                /* align-items: center; */
+                                ">Join now
+                  </a>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div>
+        <div class="element-featured">
+          <h3>Featured on</h3>
+        </div>
+        <div class="container2">
+          <img src="images/bella.png" alt="" />
+          <img src="images/irokotv.png" alt="" />
+          <img src="images/guardian.png" alt="" />
+          <img style="max-height: 80px" src="images/businessday.png" alt="" />
+          <img src="images/techcaba.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <section>
+        <div class="container3 desktopView">
+          <div class="cover3">
+            <div class="row3">
+              <div class="col-23">
+                <div class="group3">
+                  <div class="row-13">
                     <h1 style="text-align: left;">
                       WHY REAL ESTATE IS A<br />
                       SUPERIOR INVESTMENT
                     </h1>
                   </div>
-                  <div class="row-1">
+                  <div class="row-13">
                     <p style="line-height: 200%">
                       On its own, real estate investment offers cash flow, tax
                       breaks, equity building, competitive risk adjusted returns,
@@ -114,35 +163,37 @@
                       advantages, diversification and build massive wealth.
                     </p>
                   </div>
-                  <div class="row-1">
-                    <div class="dis" style="display: flex">
-                      <a href="#subscribe" class="fmt-button-2">Get started</a>
+                  <div class="row-13">
+                    <div class="dis1" style="display: flex">
+                      <a href="#subscribe" class="fmt-button-21">Get started</a>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="col-2">
+              <div class="col-23">
                 <img src="images/s3-img.png" alt="" />
               </div>
             </div>
             </div>
-            <div class="container-flex mobileView">
-              <h3 style="color: #000000;">WHY REAL ESTATE IS A SUPERIOR INVESTMENT</h3>
-              <p style="line-height: 200%">
-                On its own, real estate investment offers cash flow, tax breaks, equity
-                building, competitive risk adjusted returns, and serves as a security
-                against inflation. When you invest in real estate, you enjoy;
-                predictable cash flows, increase in value appreciation, revenue through
-                rental income, tax advantages, diversification and build massive wealth.
-              </p>
-              <a href="#subscribe" class="fmt-button-2">Get started</a>
-            </div>
           </div>
         </div>
+        <div class="container-flex mobileView">
+          <h3 style="color: #000000;">WHY REAL ESTATE IS A SUPERIOR INVESTMENT</h3>
+          <p style="line-height: 200%">
+            On its own, real estate investment offers cash flow, tax breaks, equity
+            building, competitive risk adjusted returns, and serves as a security
+            against inflation. When you invest in real estate, you enjoy;
+            predictable cash flows, increase in value appreciation, revenue through
+            rental income, tax advantages, diversification and build massive wealth.
+          </p>
+          <a href="#subscribe2" class="fmt-button-21">Get started</a>
+        </div>
+      </section>
 
+      <section>
         <div class="greeting-wrapper">
           <div>
-            <!-- <div class="svg-cover">
+            <div class="svg-cover">
               <svg width="1440" height="835" viewBox="0 0 1440 835" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M1231.4 0.505093L1439.5 99.5033V726.309L989.946 797.502L386.054 834.496L0.5 726.357V55.7531L1231.4 0.505093Z"
@@ -151,14 +202,14 @@
                   d="M1439.5 180.372V822.432L755.063 734.812L755.003 734.804L754.942 734.811L0.5 822.439V17.5598L1439.5 180.372Z"
                   fill="#DDF5FF" fill-opacity="0.33" stroke="#fff" />
               </svg>
-            </div> -->
-            <div class="cover-12 desktopView2">
-              <div class="element-featured2">
+            </div>
+            <div class="cover-14 desktopView4">
+              <div class="element-featured4">
                 <h3></h3>
               </div>
-              <div class="container2">
-                <div class="row2">
-                  <div class="col2">
+              <div class="container4">
+                <div class="row4">
+                  <div class="col4">
                     <h1>A DIFFERENT KIND OF REAL ESTATE INVESTMENT EXPERIENCE</h1>
                     <ul>
                       <li style="line-height: 200%">
@@ -170,13 +221,13 @@
                       </li>
                     </ul>
                   </div>
-                  <div class="col2">
+                  <div class="col4">
                     <img src="images/slider-two-img.png" alt="" />
                   </div>
                 </div>
               </div>
             </div>
-            <!-- <div class="container-12 bg-container2 mobileView2" style="flex-direction: column">
+            <div class="container-14 bg-container4 mobileView4" style="flex-direction: column">
               <h3 style="margin-bottom: 10px">
                 A DIFFERENT KIND OF REAL ESTATE INVESTMENT EXPERIENCE
               </h3>
@@ -186,16 +237,19 @@
                 co-own several actual properties with other investors, monitor your
                 property, and best of all; buy properties, or own a slot seamlessly.
               </span>
-            </div> -->
+            </div>
           </div>
         </div>
+      </section>
 
-        <div class="greeting-wrapper" id="subscribe">
+      <section>
+
+        <div class="desktopView5" id="subscribe">
           <div class="containerj">
-            <h1 class="txtj">WE'D lOVE TO KNOW YOU</h1>
-            <div>
+            <h1 class="txtj">WE'D LOVE TO KNOW YOU</h1>
+            <div class="">
               <div class="coverj">
-                <div class="boxj has-text-left pl-6">
+                <div class="boxj has-text-left pl-6 ">
                   <h1 class="pt-6 is-size-3">Get in touch</h1>
                   <div class="pt-4">
                     <h3 class="is-size-5">Visit us</h3>
@@ -244,52 +298,38 @@
                   </div>
                 </div>
                 <div class="pt-5">
-                  <form name="Our_Subscribers"  method="POST" data-netlify="true">
+                  <form class="formj" name="Our_Subscribers"  method="POST" data-netlify="true">
                     <div class="rowj has-text-left">
                       <div class="input-groupj">
                         <p for="first_name">First Name</p>
                         <input type="text" id="first_name" name="First_name" />
-                        <!-- placeholder="First Name" -->
-                        <!-- v-model="formData.first_name" -->
                       </div>
                       <div class="input-groupj">
                         <p for="last_name">Last Name</p>
                         <input type="text" id="last_name" name="Last_name" />
-                        <!-- placeholder="Last Name" -->
-                        <!-- v-model="formData.last_name" -->
                       </div>
                     </div>
                     <div class="rowj has-text-left">
                       <div class="input-groupj">
                         <p for="email">Email</p>
                         <input type="email" id="email" name="Email" />
-                        <!-- placeholder="Email" -->
-                        <!-- v-model="formData.email" -->
                       </div>
                       <div class="input-groupj">
                         <p for="phone">Phone Number</p>
                         <input type="number" id="phone" name="Phone" />
-                        <!-- placeholder="Phone Number" -->
-                        <!-- v-model="formData.phone" -->
                       </div>
                     </div>
                     <div class="rowj has-text-left">
                       <div class="input-groupj">
-                        <!-- <input type="text" id="country" placeholder="Country" v-model="country"> -->
                         <p for="country">Country</p>
-                        <!-- class="select" -->
                         <select id="country" name="Country">
-                          <!-- v-model="formData.country" -->
                           <option value="" selected disabled></option>
                           <option>Nigeria</option>
-                          <!-- <option>Ghana</option> -->
                         </select>
                       </div>
                       <div class="input-groupj">
-                        <!-- <input type="text" id="state" placeholder="State" v-model="state"> -->
                         <p for="state">State</p>
                         <select id="state" name="State">
-                          <!-- v-model="formData.state" -->
                           <option selected disabled>--Select State--</option>
                           <option value="Abia">Abia</option>
                           <option value="Adamawa">Adamawa</option>
@@ -336,48 +376,132 @@
                       <div class="input-groupj">
                         <p for="callYou">What would you like us to call you?</p>
                         <input type="text" id="callYou" name="What_should_we_call_you" />
-                        <!-- v-model="formData.callYou" -->
                       </div>
                     </div>
                     <div class="has-text-left">
                       <div class="input-groupj">
                         <p for="aboutUs">How did you hear about us?</p>
                         <input type="text" id="aboutUs" name="How_did_you_hear_aboutUs" />
-                        <!-- v-model="formData.aboutUs" -->
                       </div>
                     </div>
                     <div class="">
-                      <!-- <div class="input-groupj">
-                              <button class="button2" @click.stop="settings">
-                                Back
-                              </button>
-                            </div> -->
                       <div class="input-groupj m-auto">
                         <button class="button fmt-button-2j is-fullwidth" type="submit">Submit</button>
                       </div>
                     </div>
                   </form>
                 </div>
-                <!-- <div class="rowj">
-                  <h2>WANT TO JOIN THE INNER CIRCLE?</h2>
-                  <p>
-                    You can now join the special group of Propfunds investors and co-earn
-                    several properties in no time.
-                  </p>
-                  <router-link :to="{ name: 'Home' }">
-                    <a href="" class="fmt-button-2j">Get started</a>
-                  </router-link>
-                </div> -->
               </div>
             </div>
           </div>
+          
         </div>
+
+        <div class="elup mobileView5" id="subscribe2">
+          <h1 class="txtj">WE'D LOVE TO KNOW YOU</h1>
+          <form class="elup2" name="Our_Subscribers" method="POST" data-netlify="true">
+            <div class="rowt has-text-left">
+              <div class="input-groupt">
+                <p for="first_name">First Name</p>
+                <input type="text" id="first_name" name="First_name" />
+              </div>
+              <div class="input-groupt">
+                <p for="last_name">Last Name</p>
+                <input type="text" id="last_name" name="Last_name" />
+              </div>
+            </div>
+            <div class="rowt has-text-left">
+              <div class="input-groupt">
+                <p for="email">Email</p>
+                <input type="email" id="email" name="Email" />
+              </div>
+              <div class="input-groupt">
+                <p for="phone">Phone Number</p>
+                <input type="number" id="phone" name="Phone" />
+              </div>
+            </div>
+            <div class="rowt has-text-left">
+              <div class="input-groupt">
+                <p for="country">Country</p>
+                <select id="country" name="Country">
+                  <option value="" selected disabled></option>
+                  <option>Nigeria</option>
+                </select>
+              </div>
+              <div class="input-groupt">
+                <p for="state">State</p>
+                <select id="state" name="State">
+                  <option selected disabled>--Select State--</option>
+                  <option value="Abia">Abia</option>
+                  <option value="Adamawa">Adamawa</option>
+                  <option value="Akwa Ibom">Akwa Ibom</option>
+                  <option value="Anambra">Anambra</option>
+                  <option value="Bauchi">Bauchi</option>
+                  <option value="Bayelsa">Bayelsa</option>
+                  <option value="Benue">Benue</option>
+                  <option value="Borno">Borno</option>
+                  <option value="Cross Rive">Cross River</option>
+                  <option value="Delta">Delta</option>
+                  <option value="Ebonyi">Ebonyi</option>
+                  <option value="Edo">Edo</option>
+                  <option value="Ekiti">Ekiti</option>
+                  <option value="Enugu">Enugu</option>
+                  <option value="FCT">Federal Capital Territory</option>
+                  <option value="Gombe">Gombe</option>
+                  <option value="Imo">Imo</option>
+                  <option value="Jigawa">Jigawa</option>
+                  <option value="Kaduna">Kaduna</option>
+                  <option value="Kano">Kano</option>
+                  <option value="Katsina">Katsina</option>
+                  <option value="Kebbi">Kebbi</option>
+                  <option value="Kogi">Kogi</option>
+                  <option value="Kwara">Kwara</option>
+                  <option value="Lagos">Lagos</option>
+                  <option value="Nasarawa">Nasarawa</option>
+                  <option value="Niger">Niger</option>
+                  <option value="Ogun">Ogun</option>
+                  <option value="Ondo">Ondo</option>
+                  <option value="Osun">Osun</option>
+                  <option value="Oyo">Oyo</option>
+                  <option value="Plateau">Plateau</option>
+                  <option value="Rivers">Rivers</option>
+                  <option value="Sokoto">Sokoto</option>
+                  <option value="Taraba">Taraba</option>
+                  <option value="Yobe">Yobe</option>
+                  <option value="Zamfara">Zamfara</option>
+                </select>
+              </div>
+            </div>
+        
+            <div class="has-text-left">
+              <div class="input-groupt">
+                <p for="callYou">What would you like us to call you?</p>
+                <input type="text" id="callYou" name="What_should_we_call_you" />
+              </div>
+            </div>
+            <div class="has-text-left">
+              <div class="input-groupt">
+                <p for="aboutUs">How did you hear about us?</p>
+                <input type="text" id="aboutUs" name="How_did_you_hear_aboutUs" />
+              </div>
+            </div>
+            <div class="">
+              <div class="input-groupt m-auto">
+                <button class="button fmt-button-2j is-fullwidth" type="submit">Submit</button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+      </section>
+
+      <!-- <section> -->
 
         <footer>
           <div class="footer-container">
             <div class="rowQ" style="display: flex; justify-content: space-evenly;">
               <div class="left-colQ">
-                <img src="images/logo1.png" class="logo" />
+                <img src="images/logo1.png" class="logo" /> 
                 <!-- <div class="btn-containerQ">
                     <div class="btnQ">
                       <i class="bx bxl-play-store"></i>
@@ -459,8 +583,8 @@
           </div>
         </footer>
 
-      </div>
-    </section>
+      <!-- </div> -->
+    <!-- </section> -->
 
     <script type="text/javascript" src="script.js"></script>
   </body>
